@@ -1,0 +1,202 @@
+## Ignorar archivos temporales de Visual Studio, resultados de compilación y
+## archivos generados por complementos populares de Visual Studio.
+##
+## Obtén la última versión de https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
+
+# Archivos específicos del usuario
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos específicos del usuario (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Resultados de compilación
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Excluir directorios 'bin' y 'obj'
+**/[Bb]in/
+**/[Oo]bj/
+
+# Excluir directorio '.vs'
+**/.vs/
+
+# Directorio de opciones/cache de Visual Studio 2015/2017
+.vs/
+
+# Descomentar si tienes tareas que crean los archivos estáticos del proyecto en wwwroot
+wwwroot/
+
+# Archivos generados automáticamente por Visual Studio 2017
+Generated\ Files/
+
+# Resultados de pruebas MSTest
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+
+# Resultados de compilación de un proyecto ATL
+[Dd]ebugPS/
+[Rr]eleasePS/
+dlldata.c
+
+# Resultados de benchmark
+BenchmarkDotNet.Artifacts/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+**/Properties/launchSettings.json
+
+# StyleCop
+StyleCopReport.xml
+
+# Archivos generados por Visual Studio
+*_i.c
+*_p.c
+*_i.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Archivos de prueba Chutzpah
+_Chutzpah*
+
+# Archivos de caché de Visual C++
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# Perfilador de Visual Studio
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Archivos de rastreo de Visual Studio
+*.e2e
+
+# Espacio de trabajo local de TFS 2012
+$tf/
+
+# Toolkit de automatización de guía
+*.gpState
+
+# ReSharper es un complemento de codificación .NET
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# JustCode es un complemento de codificación .NET
+.JustCode
+
+# TeamCity es un complemento de compilación
+_TeamCity*
+
+# DotCover es una herramienta de cobertura de código
+*.dotCover
+
+# AxoCover es una herramienta de cobertura de código
+.axoCover/*
+!.axoCover/settings.json
+
+# Resultados de cobertura de código de Visual Studio
+*.coverage
+*.coveragexml
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# MightyMoose
+*.mm.*
+AutoTest.Net/
+
+# Workbench web (sass)
+.sass-cache/
+
+# Carpeta de salida de Installshield
+[Ee]xpress/
+
+# Proyecto DocProject (generador de documentación)
+DocProject/buildhelp/
+DocProject/Help/*.HxT
+DocProject/Help/*.HxC
+DocProject/Help/*.hhc
+DocProject/Help/*.hhk
+DocProject/Help/*.hhp
+DocProject/Help/Html2
+DocProject/Help/html
+
+# Carpeta Click-Once
+publish/
+
+# Salida de publicación web
+*.[Pp]ublish.xml
+*.azurePubxml
+# Nota: Comenta la siguiente línea si deseas verificar la configuración de implementación web,
+# pero las cadenas de conexión de la base de datos (con posibles contraseñas) no estarán encriptadas
+*.pubxml
+*.publishproj
+
+# Configuraciones de publicación de Microsoft Azure Web App. Comenta la siguiente línea si deseas
+# verificar la configuración de publicación de tu aplicación web de Azure, pero la información confidencial
+# contenida en estos scripts estará sin encriptar
+PublishScripts/
+
+# Paquetes NuGet
+*.nupkg
+# La carpeta de paquetes se puede ignorar debido a la Restauración de paquetes
+**/[Pp]ackages/*
+# excepto build/, que se utiliza como destino de MSBuild.
+!**/[Pp]ackages/build/
+# Descomenta si es necesario, sin embargo, generalmente se generará de nuevo cuando sea necesario
+#!**/[Pp]ackages/repositories.config
+# Los archivos project.json de NuGet v3 producen más archivos ignorables
+
+# Microsoft Azure Build Output
+csx/
+*.build.csdef
+
+# Microsoft Azure Emulator
+ecf/
+rcf/

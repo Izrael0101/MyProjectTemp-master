@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DTOs\Requestes\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyProjectTemp.App\MyProjectTemp.App.csproj" />
+    <ProjectReference Include="..\MyProjectTemp.Infra\MyProjectTemp.Infra.csproj" />
+  </ItemGroup>
+
+</Project>

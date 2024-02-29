@@ -1,0 +1,34 @@
+<ul class="sidebar-menu" data-widget="tree">
+    <li class="header">HEADER</li>
+    <!-- Añade iconos a los enlaces si lo deseas -->
+    <li class="active">
+        <a asp-controller="Home" asp-action="Index">
+            <i class="fa fa-home"></i> <span>Home</span>
+        </a>
+    </li>
+    <li>
+        <a asp-controller="ArchDesign" asp-action="Index">
+            <i class="fa fa-th-list"></i> <span>ArchDesign List</span>
+        </a>
+    </li>
+    <li class="treeview">
+        <a href="#">
+            <i class="fa fa-link"></i> <span>Multilevel</span>
+            <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+            </span>
+        </a>
+        <ul class="treeview-menu">
+            <li>
+                <a asp-controller="OtherController" asp-action="Action">
+                    Link in level 2
+                </a>
+            </li>
+            <li>
+                <a asp-controller="AnotherController" asp-action="AnotherAction">
+                    Link in level 2
+                </a>
+            </li>
+        </ul>
+    </li>
+</ul>
